@@ -10,7 +10,10 @@ function HomeScreen(props) {
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+    backgroundColor: "red",
+  },
 });
 
 export default HomeScreen;
